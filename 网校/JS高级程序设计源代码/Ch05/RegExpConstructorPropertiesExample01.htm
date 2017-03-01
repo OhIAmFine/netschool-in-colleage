@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RegExp Constructor Properties Example</title>
+    <script type="text/javascript">
+    
+        var text1 = "RedRockqdqwRedrockWdqiodqjwd";
+        var pattern1 = /(.)edRock/g;
+        
+        
+                
+        if (pattern1.test(text1)){
+                 
+            alert(RegExp.rightContext);        
+            alert(RegExp.lastMatch);           
+      
+        }
+        var text2 = "RegExp.rightContext" ; 
+        var pattern2  = /(.)edRock/g;
+        if (pattern2.test(text2)){
+                 
+            alert(RegExp.rightContext);        
+            alert(RegExp.lastMatch);           
+      
+        }
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
